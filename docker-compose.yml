@@ -1,0 +1,7 @@
+# docker-compose.yml
+version: "3.8"
+services:
+  llm_pdf_qa:
+    image: abhimazu/cobaqa:1.0
+    ports:
+      - "8787:8787"
